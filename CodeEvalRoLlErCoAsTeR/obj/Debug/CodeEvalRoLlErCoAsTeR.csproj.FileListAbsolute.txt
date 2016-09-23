@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\CodeEvalRoLlErCoAsTeR\CodeEvalRoLlErCoAsTeR\bin\Debug\CodeEvalRoLlErCoAsTeR.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\CodeEvalRoLlErCoAsTeR\CodeEvalRoLlErCoAsTeR\bin\Debug\CodeEvalRoLlErCoAsTeR.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\CodeEvalRoLlErCoAsTeR\CodeEvalRoLlErCoAsTeR\bin\Debug\CodeEvalRoLlErCoAsTeR.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\CodeEvalRoLlErCoAsTeR\CodeEvalRoLlErCoAsTeR\obj\Debug\CodeEvalRoLlErCoAsTeR.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\CodeEvalRoLlErCoAsTeR\CodeEvalRoLlErCoAsTeR\obj\Debug\CodeEvalRoLlErCoAsTeR.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\CodeEvalRoLlErCoAsTeR\CodeEvalRoLlErCoAsTeR\obj\Debug\CodeEvalRoLlErCoAsTeR.pdb
