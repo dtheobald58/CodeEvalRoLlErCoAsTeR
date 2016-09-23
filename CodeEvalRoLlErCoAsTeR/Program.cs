@@ -29,18 +29,88 @@ namespace CodeEvalRoLlErCoAsTeR
         public static string ToCoaster (string original)
         {
             string changed = "";
-            for (int i = 0; i < original.Length; i++)
+
+            int i = 0;
+            int b = 0;
+
+            for (i = 0; i < original.Length; i++)
             {
-                if (i % 2 == 0)
+                if (char.IsLetter(original[i]))
                 {
-                    changed += original[i].ToString().ToUpper();
-                }
+                    if (b % 2 == 0)
+                    {
+                        changed += original[i].ToString().ToUpper();
+
+                    }
+                    else
+                    {
+                        changed += original[i].ToString().ToLower();
+
+                    }
+                    b++;
+                } 
                 else
                 {
-                    changed += original[i].ToString().ToLower();
-                }              
+                    changed += original[i];
+                }             
             }
+            Console.WriteLine(changed);
             return changed;
+
+            /*
+            CLOSE!!!!
+            if (char.IsLetter(a))
+            {
+                int b = 0;
+                
+                
+          
+                for (i = 0; i < original.Length; i++)
+                {
+                    if (b % 2 == 0)
+                    {
+                        changed += original[i].ToString().ToUpper();
+                        
+                    }
+                    
+                    else
+                    {
+                        changed += original[i].ToString().ToLower();
+                        
+                    }
+                    b++;            
+                }
+                
+            }
+            else
+            {
+                changed += original[i];
+                
+            }
+            */
+
+
+
+            //for (int i = 0; i < original.Length; i++)
+            //{
+            //    char a = original[i];
+
+            //    if (char.IsLetter(a))
+            //    {
+            //        if (i % 2 == 0)
+            //        {
+            //            changed += original[i].ToString().ToUpper();
+            //        }
+            //        else
+            //        {
+            //            changed += original[i].ToString().ToLower();
+            //        }
+            //    }    
+            //    else
+            //    {
+            //        changed += original[i].ToString();
+            //    }      
+            //}
         }
 
 
